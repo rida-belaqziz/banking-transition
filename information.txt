@@ -1,0 +1,30 @@
+Objectifs :
+Quelles fonctionnalités l'application aura-t-elle ? (exemple : saisie des informations bancaires, affichage du solde, historique des transactions, transferts).
+Qui sont les utilisateurs ?
+Technologies :
+Frontend : Qt avec C++.
+Backend/API : Serveur API en Python (FastAPI ou Flask), Node.js, ou autre langage que vous souhaitez apprendre.
+Base de données : SQLite (pour commencer, puis éventuellement PostgreSQL ou MySQL).
+Architecture :
+Une application client-serveur avec :
+Une interface graphique (Qt).
+Une API REST pour gérer les données.
+Une base de données.
+
+
+-------------------------
+Fichier mainwindow.ui
+Remplacez le texte "Paiement de 13.00 EUR" :
+Par un QLabel avec le texte générique : "Paiement bancaire" ou "Informations bancaires".
+Ajoutez un champ pour saisir le montant (optionnel) :
+Ajoutez un QLineEdit nommé amountLineEdit sous les champs de saisie pour que l'utilisateur puisse entrer le montant à payer.
+L'organisation devient :
+Titre : QLabel ("Paiement bancaire").
+Champs de saisie :
+Numéro de carte (cardNumberLineEdit).
+Date de fin de validité (expiryDateLineEdit).
+Cryptogramme visuel (cvvLineEdit).
+Montant (amountLineEdit).
+Boutons :
+"Valider" et "Annuler".
+Optionnel : "Retour".
