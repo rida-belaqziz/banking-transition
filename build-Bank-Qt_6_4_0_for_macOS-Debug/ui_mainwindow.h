@@ -66,7 +66,7 @@ public:
         Crypto->setGeometry(QRect(77, 270, 201, 20));
         lineEdit_numCarte = new QLineEdit(centralwidget);
         lineEdit_numCarte->setObjectName("lineEdit_numCarte");
-        lineEdit_numCarte->setGeometry(QRect(320, 170, 113, 21));
+        lineEdit_numCarte->setGeometry(QRect(320, 170, 191, 21));
         lineEdit_Crypto = new QLineEdit(centralwidget);
         lineEdit_Crypto->setObjectName("lineEdit_Crypto");
         lineEdit_Crypto->setGeometry(QRect(310, 270, 113, 21));

@@ -51,14 +51,15 @@ void MainWindow::on_validateButton_clicked() {
     for (QChar c : cardNumber){
         if(!c.isDigit()){
             isNumber= false;
+            break;
         }
-        break;
     }
     for (QChar c : cvv){
         if(!c.isDigit()){
             isNumber= false;
+            break;
         }
-        break;
+
     }
 
     //ajouter des condition par rapport le size
